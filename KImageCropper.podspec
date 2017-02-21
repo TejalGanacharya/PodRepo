@@ -31,7 +31,8 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '9.0'
 
   s.source_files = 'KImageCropper/Classes/**/*'
-  
+  s.exclude_files = 'KImageCropper/Classes/KICropImageView.m'
+
   # s.resource_bundles = {
   #   'KImageCropper' => ['KImageCropper/Assets/*.png']
   # }
@@ -39,4 +40,11 @@ Pod::Spec.new do |s|
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+
+  s.requires_arc = true
+  s.subspec 'no-arc' do |sp|
+    sp.source_files = 'ImageCroping/Cropper/KICropImageView.m'
+    sp.requires_arc = false
+  end
+
 end

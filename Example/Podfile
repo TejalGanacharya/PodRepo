@@ -1,7 +1,7 @@
 use_frameworks!
 
 target 'KImageCropper_Example' do
-  pod 'KImageCropper', :path => '../'
+  pod 'KImageCropper', :path => '/Users/sagar/Desktop/Pod Folder/KImageCropper'
 
   target 'KImageCropper_Tests' do
     inherit! :search_paths
