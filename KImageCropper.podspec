@@ -30,7 +30,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'KImageCropper/Classes/**/*'
+  s.source_files = 'KImageCropper/Classes/*.{h,m}'
   s.exclude_files = 'KImageCropper/Classes/KICropImageView.m'
 
   # s.resource_bundles = {
