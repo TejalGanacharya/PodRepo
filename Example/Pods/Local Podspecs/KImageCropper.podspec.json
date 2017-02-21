@@ -1,0 +1,22 @@
+{
+  "name": "KImageCropper",
+  "version": "0.1.0",
+  "summary": "A short description of KImageCropper.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/tejal.ganacharya@lnttechservices.com/KImageCropper",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "tejal.ganacharya@lnttechservices.com": "sagar.bheda@lnttechservices.com"
+  },
+  "source": {
+    "git": "https://github.com/tejal.ganacharya@lnttechservices.com/KImageCropper.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "KImageCropper/Classes/**/*"
+}

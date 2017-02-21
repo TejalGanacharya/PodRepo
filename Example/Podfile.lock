@@ -1,0 +1,16 @@
+PODS:
+  - KImageCropper (0.1.0)
+
+DEPENDENCIES:
+  - KImageCropper (from `../`)
+
+EXTERNAL SOURCES:
+  KImageCropper:
+    :path: ../
+
+SPEC CHECKSUMS:
+  KImageCropper: d4227868c65161dbd5c116010aa986a8eabec5fb
+
+PODFILE CHECKSUM: 8f92ccd5995a77743228b82a8feb45b5c87564d9
+
+COCOAPODS: 1.2.0
