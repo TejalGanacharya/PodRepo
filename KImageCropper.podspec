@@ -43,7 +43,7 @@ Pod::Spec.new do |s|
 
   s.requires_arc = true
   s.subspec 'no-arc' do |sp|
-    sp.source_files = 'ImageCroping/Cropper/KICropImageView.m'
+    sp.source_files = 'KImageCropper/Classes/KICropImageView.m'
     sp.requires_arc = false
   end
 
